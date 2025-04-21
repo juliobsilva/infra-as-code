@@ -1,0 +1,54 @@
+### Terraform ###
+
+# Diretórios locais do Terraform
+**/.terraform/
+
+provider.tf
+
+# Arquivos de estado
+*.tfstate
+*.tfstate.*
+
+# Arquivos de variáveis sensíveis
+*.tfvars
+*.tfvars.json
+
+# Arquivos de log de falhas
+crash.log
+crash.*.log
+
+# Arquivos de sobrescrita local (não devem ser versionados)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Arquivos de plano
+*tfplan*
+
+# Arquivos de configuração do CLI
+.terraformrc
+terraform.rc
+
+### Arquivos de IDEs e sistemas ###
+# VS Code
+.vscode/
+
+# JetBrains (IntelliJ, PyCharm, etc.)
+.idea/
+
+# Arquivos temporários e de backup
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+### Evitar arquivos adicionados por engano no Windows ###
+# Zone.Identifier é um fluxo alternativo do Windows
+*Zone.Identifier
