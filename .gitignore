@@ -9,6 +9,8 @@ provider.tf
 *.tfstate
 *.tfstate.*
 
+.terraform.lock.hcl
+
 # Arquivos de variáveis sensíveis
 *.tfvars
 *.tfvars.json
